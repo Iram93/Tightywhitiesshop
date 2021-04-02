@@ -1,0 +1,65 @@
+header {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  justify-content: space-around;
+}
+ul {
+  list-style: none;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 30px;
+}
+#tshirt1,
+#tshirt2,
+#tshirt3,
+#tshirt4,
+#tshirt5,
+#tshirt6,
+#tshirt7,
+#tshirt8,
+#tshirt9,
+#tshirt10,
+#tshirt11,
+#tshirt12,
+#tshirt13,
+#tshirt14,
+#tshirt15 {
+  margin-bottom: 30px;
+}
+button {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(9, 10, 10);
+  color: whitesmoke;
+  padding: 5px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20%;
+  border: 0.1em solid #ffffff;
+  border-radius: 3px;
+  transition-duration: 0.25s;
+}
+button:hover {
+  background-color: gray;
+  color: beige;
+}
